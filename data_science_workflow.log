@@ -1,0 +1,268 @@
+2025-03-03 20:27:07,802 - MainOrchestrator - INFO - Loading data from /Users/vishesh/Documents/Github/AI-Agent-Based-Data-Science-Workflow/customers-100000.csv
+2025-03-03 20:27:08,035 - MainOrchestrator - INFO - Data loaded successfully. Shape: (100000, 12)
+2025-03-03 20:27:08,035 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:27:08,040 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:27:08,040 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:27:08,040 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:27:08,045 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:27:08,080 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:27:08,080 - DataCleaningAgent - INFO - Handling outliers
+2025-03-03 20:27:08,082 - DataCleaningAgent - INFO - Normalizing features
+2025-03-03 20:27:08,084 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:27:08,471 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.43 seconds
+2025-03-03 20:27:08,471 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:27:08,471 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:27:08,471 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:27:08,473 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:27:08,485 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:27:08,485 - EDAAgent - INFO - Not enough numerical columns for correlation analysis
+2025-03-03 20:27:08,485 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:27:09,123 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:27:09,123 - EDAAgent - INFO - Completed EDAAgent processing in 0.65 seconds
+2025-03-03 20:27:09,123 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:27:09,123 - Workflow - WARNING - Target column 'target' not found or not specified. Skipping model selection.
+2025-03-03 20:27:09,123 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:27:09,123 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:27:09,124 - ReportingAgent - INFO - Generating LLM insights
+2025-03-03 20:27:32,537 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:27:54,614 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:27:54,632 - ReportingAgent - INFO - Completed ReportingAgent processing in 45.51 seconds
+2025-03-03 20:27:54,633 - Workflow - INFO - Workflow execution completed
+2025-03-03 20:31:22,480 - MainOrchestrator - INFO - Loading data from /Users/vishesh/Documents/Github/AI-Agent-Based-Data-Science-Workflow/customers-100000.csv
+2025-03-03 20:31:22,672 - MainOrchestrator - INFO - Data loaded successfully. Shape: (100000, 12)
+2025-03-03 20:31:22,672 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:31:22,677 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:31:22,677 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:31:22,677 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:31:22,683 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:31:22,720 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:31:22,720 - DataCleaningAgent - INFO - Handling outliers
+2025-03-03 20:31:22,722 - DataCleaningAgent - INFO - Normalizing features
+2025-03-03 20:31:22,724 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:31:23,047 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.37 seconds
+2025-03-03 20:31:23,047 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:31:23,047 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:31:23,047 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:31:23,049 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:31:23,056 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:31:23,058 - EDAAgent - INFO - Not enough numerical columns for correlation analysis
+2025-03-03 20:31:23,058 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:31:23,373 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:31:23,373 - EDAAgent - INFO - Completed EDAAgent processing in 0.33 seconds
+2025-03-03 20:31:23,373 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:31:23,373 - Workflow - WARNING - Target column 'target' not found or not specified. Skipping model selection.
+2025-03-03 20:31:23,373 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:31:23,373 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:31:23,374 - ReportingAgent - INFO - Generating LLM insights
+2025-03-03 20:31:23,381 - utils.llm_api - ERROR - Error generating insights: module 'groq' has no attribute 'chat'
+2025-03-03 20:31:23,381 - utils.llm_api - ERROR - Error suggesting next steps: module 'groq' has no attribute 'chat'
+2025-03-03 20:31:23,381 - ReportingAgent - INFO - Completed ReportingAgent processing in 0.01 seconds
+2025-03-03 20:31:23,381 - Workflow - INFO - Workflow execution completed
+2025-03-03 20:32:14,366 - MainOrchestrator - INFO - Loading data from /Users/vishesh/Documents/Github/AI-Agent-Based-Data-Science-Workflow/customers-100000.csv
+2025-03-03 20:32:14,558 - MainOrchestrator - INFO - Data loaded successfully. Shape: (100000, 12)
+2025-03-03 20:32:14,558 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:32:14,562 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:32:14,562 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:32:14,562 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:32:14,566 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:32:14,603 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:32:14,603 - DataCleaningAgent - INFO - Handling outliers
+2025-03-03 20:32:14,606 - DataCleaningAgent - INFO - Normalizing features
+2025-03-03 20:32:14,609 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:32:14,936 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.37 seconds
+2025-03-03 20:32:14,936 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:32:14,936 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:32:14,936 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:32:14,937 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:32:14,942 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:32:14,942 - EDAAgent - INFO - Not enough numerical columns for correlation analysis
+2025-03-03 20:32:14,942 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:32:15,252 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:32:15,252 - EDAAgent - INFO - Completed EDAAgent processing in 0.32 seconds
+2025-03-03 20:32:15,252 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:32:15,252 - Workflow - WARNING - Target column 'target' not found or not specified. Skipping model selection.
+2025-03-03 20:32:15,252 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:32:15,252 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:32:15,252 - ReportingAgent - INFO - Generating LLM insights
+2025-03-03 20:32:17,943 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:32:20,300 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:32:20,303 - ReportingAgent - INFO - Completed ReportingAgent processing in 5.05 seconds
+2025-03-03 20:32:20,304 - Workflow - INFO - Workflow execution completed
+2025-03-03 20:34:34,536 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:34:34,549 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:34:34,549 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:34:34,549 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:34:34,564 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:34:34,603 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:34:34,603 - DataCleaningAgent - INFO - Handling outliers
+2025-03-03 20:34:34,606 - DataCleaningAgent - INFO - Normalizing features
+2025-03-03 20:34:34,608 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:34:34,955 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.41 seconds
+2025-03-03 20:34:34,955 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:34:34,955 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:34:34,955 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:34:34,957 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:34:34,965 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:34:34,967 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:34:34,968 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:34:35,649 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:34:35,655 - EDAAgent - INFO - Completed EDAAgent processing in 0.70 seconds
+2025-03-03 20:34:35,655 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:34:35,655 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:34:35,665 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:35:32,956 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:35:32,979 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:35:32,980 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:35:32,980 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:35:32,984 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:35:33,014 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:35:33,014 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:35:33,351 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.37 seconds
+2025-03-03 20:35:33,351 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:35:33,351 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:35:33,351 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:35:33,352 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:35:33,358 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:35:33,360 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:35:33,362 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:35:33,984 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:35:33,990 - EDAAgent - INFO - Completed EDAAgent processing in 0.64 seconds
+2025-03-03 20:35:33,990 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:35:33,990 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:35:33,998 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:36:37,047 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:36:37,062 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:36:37,062 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:36:37,062 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:36:37,066 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:36:37,093 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:36:37,093 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:36:37,405 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.34 seconds
+2025-03-03 20:36:37,405 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:36:37,405 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:36:37,405 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:36:37,407 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:36:37,415 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:36:37,416 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:36:37,417 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:36:38,046 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:36:38,051 - EDAAgent - INFO - Completed EDAAgent processing in 0.65 seconds
+2025-03-03 20:36:38,051 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:36:38,051 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:36:38,059 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:36:55,933 - ModelSelectionAgent - INFO - Evaluating RandomForest...
+2025-03-03 20:37:40,642 - ModelSelectionAgent - INFO - Evaluating GradientBoosting...
+2025-03-03 20:39:07,895 - ModelSelectionAgent - INFO - Evaluating SVC...
+2025-03-03 20:42:51,278 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:42:51,294 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:42:51,294 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:42:51,294 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:42:51,298 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:42:51,324 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:42:51,324 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:42:51,638 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.34 seconds
+2025-03-03 20:42:51,638 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:42:51,638 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:42:51,638 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:42:51,639 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:42:51,645 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:42:51,646 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:42:51,648 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:42:52,239 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:42:52,244 - EDAAgent - INFO - Completed EDAAgent processing in 0.61 seconds
+2025-03-03 20:42:52,244 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:42:52,244 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:42:52,252 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:43:07,536 - ModelSelectionAgent - INFO - Evaluating RandomForest...
+2025-03-03 20:43:46,252 - ModelSelectionAgent - INFO - Evaluating GradientBoosting...
+2025-03-03 20:44:58,766 - ModelSelectionAgent - INFO - Evaluating SVC...
+2025-03-03 20:55:28,758 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:55:28,758 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:55:28,758 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:55:28,758 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:55:28,758 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:55:28,759 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:55:28,759 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:55:28,763 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.01 seconds
+2025-03-03 20:55:28,763 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:55:28,763 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:55:28,763 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:55:28,764 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:55:28,767 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:55:28,767 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:55:28,767 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:55:29,213 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:55:29,215 - EDAAgent - INFO - Completed EDAAgent processing in 0.45 seconds
+2025-03-03 20:55:29,215 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:55:29,215 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:55:29,216 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:55:30,922 - ModelSelectionAgent - INFO - Evaluating RandomForest...
+2025-03-03 20:55:31,600 - ModelSelectionAgent - INFO - Evaluating GradientBoosting...
+2025-03-03 20:55:32,166 - ModelSelectionAgent - INFO - Evaluating SVC...
+2025-03-03 20:55:41,127 - ModelSelectionAgent - INFO - Evaluating KNN...
+2025-03-03 20:55:41,186 - ModelSelectionAgent - INFO - Evaluating DecisionTree...
+2025-03-03 20:55:41,233 - ModelSelectionAgent - INFO - Completed ModelSelectionAgent processing in 12.02 seconds
+2025-03-03 20:55:41,233 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:55:41,233 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:56:33,702 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:56:33,702 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:56:33,702 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:56:33,702 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:56:33,702 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:56:33,703 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:56:33,703 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:56:33,707 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.00 seconds
+2025-03-03 20:56:33,707 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:56:33,707 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:56:33,707 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:56:33,708 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:56:33,710 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:56:33,710 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:56:33,711 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:56:34,100 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:56:34,101 - EDAAgent - INFO - Completed EDAAgent processing in 0.39 seconds
+2025-03-03 20:56:34,101 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:56:34,101 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:56:34,101 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:56:36,228 - ModelSelectionAgent - INFO - Evaluating RandomForest...
+2025-03-03 20:56:36,921 - ModelSelectionAgent - INFO - Evaluating GradientBoosting...
+2025-03-03 20:56:37,493 - ModelSelectionAgent - INFO - Evaluating SVC...
+2025-03-03 20:56:46,581 - ModelSelectionAgent - INFO - Evaluating KNN...
+2025-03-03 20:56:46,632 - ModelSelectionAgent - INFO - Evaluating DecisionTree...
+2025-03-03 20:56:46,678 - ModelSelectionAgent - INFO - Completed ModelSelectionAgent processing in 12.58 seconds
+2025-03-03 20:56:46,678 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:56:46,678 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:57:42,300 - MainOrchestrator - INFO - Running workflow
+2025-03-03 20:57:42,300 - Workflow - INFO - Starting workflow execution
+2025-03-03 20:57:42,300 - Workflow - INFO - Step 1: Data Cleaning
+2025-03-03 20:57:42,300 - DataCleaningAgent - INFO - Starting DataCleaningAgent processing
+2025-03-03 20:57:42,300 - DataCleaningAgent - INFO - Handling missing values
+2025-03-03 20:57:42,301 - DataCleaningAgent - INFO - No missing values found
+2025-03-03 20:57:42,301 - DataCleaningAgent - INFO - Encoding categorical features
+2025-03-03 20:57:42,305 - DataCleaningAgent - INFO - Completed DataCleaningAgent processing in 0.01 seconds
+2025-03-03 20:57:42,305 - Workflow - INFO - Step 2: Exploratory Data Analysis
+2025-03-03 20:57:42,305 - EDAAgent - INFO - Starting EDAAgent processing
+2025-03-03 20:57:42,305 - EDAAgent - INFO - Analyzing dataset information
+2025-03-03 20:57:42,306 - EDAAgent - INFO - Analyzing summary statistics
+2025-03-03 20:57:42,308 - EDAAgent - INFO - Analyzing correlations
+2025-03-03 20:57:42,308 - EDAAgent - INFO - Analyzing feature importance
+2025-03-03 20:57:42,308 - EDAAgent - INFO - Generating visualizations
+2025-03-03 20:57:42,677 - EDAAgent - INFO - Performing statistical tests
+2025-03-03 20:57:42,678 - EDAAgent - INFO - Completed EDAAgent processing in 0.37 seconds
+2025-03-03 20:57:42,678 - Workflow - INFO - Step 3: Model Selection
+2025-03-03 20:57:42,678 - ModelSelectionAgent - INFO - Starting ModelSelectionAgent processing
+2025-03-03 20:57:42,679 - ModelSelectionAgent - INFO - Evaluating LogisticRegression...
+2025-03-03 20:57:44,369 - ModelSelectionAgent - INFO - Evaluating RandomForest...
+2025-03-03 20:57:44,989 - ModelSelectionAgent - INFO - Evaluating GradientBoosting...
+2025-03-03 20:57:45,532 - ModelSelectionAgent - INFO - Evaluating SVC...
+2025-03-03 20:57:54,178 - ModelSelectionAgent - INFO - Evaluating KNN...
+2025-03-03 20:57:54,239 - ModelSelectionAgent - INFO - Evaluating DecisionTree...
+2025-03-03 20:57:54,285 - ModelSelectionAgent - INFO - Completed ModelSelectionAgent processing in 11.61 seconds
+2025-03-03 20:57:54,285 - Workflow - INFO - Step 4: Generating Report
+2025-03-03 20:57:54,285 - ReportingAgent - INFO - Starting ReportingAgent processing
+2025-03-03 20:57:54,286 - ReportingAgent - INFO - Generating LLM insights
+2025-03-03 20:57:56,599 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:57:59,085 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:58:01,359 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-03 20:58:01,360 - ReportingAgent - INFO - Completed ReportingAgent processing in 7.07 seconds
+2025-03-03 20:58:01,360 - Workflow - INFO - Workflow execution completed
